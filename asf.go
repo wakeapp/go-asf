@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+// CountryCode - return store front code
+// for addtitional see: https://gist.github.com/hmml/8942940
 func CountryCode(country string) (string, error) {
 	code := map[string]int{
 		"DZ": 143563,
@@ -137,6 +139,8 @@ func CountryCode(country string) (string, error) {
 		"VE": 143502,
 		"VN": 143471,
 		"YE": 143571,
+		"KG": 143586,
+		"TJ": 143603,
 	}
 
 	res := ""
